@@ -1,3 +1,3 @@
-## 欢迎来到林陈斌的githubpage
+## 欢迎来到林陈斌的github page
 [前往github](github.com)
 正在开发中...
