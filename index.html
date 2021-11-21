@@ -1,13 +1,24 @@
+<!DOCTYPE html>
 <html>
-  <body>
-      <script>
-function a()
-{
-var a= new Date();
-var b=a.getHours();
-alert(b)
+<body id="demo" style="">
+
+<p>单击该按钮可显示当前时间的小时数。</p>
+
+<button onclick="myFunction()">试一试</button>
+<script>
+function myFunction() {
+  var d=new Date();
+  var n=d.getHours();
+  if(n<17)
+  { 
+  document.getElementById("demo").style="background:black";
+  }
+  else
+  {
+  document.getElementById("demo").style="background:white";
+  }
 }
 </script>
-    <button onclick="a()">试一试</button>
-  </body>
+
+</body>
 </html>
